@@ -5,7 +5,11 @@ body{
 
 /* Header **/
 header{
-  
+    background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
 
 }
 
@@ -15,7 +19,9 @@ header a{
 }
 
 header li{
- 
+   padding: 25px;
+  list-style: none;
+  font-size: 0.7cm;
 
 }
 
@@ -35,7 +41,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  
+  color: red;
 
 }
 
@@ -53,4 +59,15 @@ footer{
 #newsletter form input[type="email"], .quote input, .quote textarea{
     
   }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+header ul {
+  display: flex;
+  align-items:center
+  
+}
 
